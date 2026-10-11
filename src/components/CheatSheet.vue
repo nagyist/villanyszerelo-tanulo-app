@@ -206,15 +206,15 @@ const cheatSheetData = {
     {
       title: "Villanyszerelés 9 lépésben",
       items: [
-        "1. Tervezés, engedélyeztetés, anyagbeszerzés",
-        "2. Kábelcsatornák, elosztók helyének kijelölése",
-        "3. Fűrészelés, vésés (süllyesztett védőcsöves szerelés)",
-        "4. Csövek, dobok, kapcsolók, aljzatok beépítése",
-        "5. Vezetékhúzás, jelölés",
-        "6. Elővakolás, száradás",
-        "7. Elosztók, lámpatestek szerelése, bekötések",
-        "8. Üzemi próba (szigetelés, érintésvédelem mérés)",
-        "9. Átadás, dokumentáció"
+        "1. Eszközök előkészítése",
+        "2. Pozíciók és útvonalak kijelölése",
+        "3. Doboznyílások és hornyok kivésése",
+        "4. Dobozok beépítése",
+        "5. Védőcsövek elhelyezése és rögzítése",
+        "6. Hornyok bevakolása",
+        "7. Vezetékek behúzása",
+        "8. Vezetékek azonosítása és szerelvények bekötése",
+        "9. Vizsgálatok és üzembe helyezés"
       ]
     }
   ],
@@ -385,6 +385,25 @@ const cheatSheetData = {
         "Befordított metszet: helyben, vékony vonallal"
       ]
     }
+  ],
+  "employment": [
+    {
+      title: "Bruttó és nettó bér (2022)",
+      items: [
+        "Összes közteher: **33,5%**",
+        "**15% SZJA** + **18,5% TB járulék**",
+        "TB járulék: nyugdíj 10% + egészségbiztosítás 7% + munkaerő-piaci 1,5%",
+        "1000 Ft bruttó → **665 Ft nettó** (kedvezmények nélkül)"
+      ]
+    },
+    {
+      title: "Motivációs levél részei",
+      items: [
+        "Fejléc → Megszólítás → Jelentkezés tárgya → Rövid indoklás",
+        "Szakmai tapasztalatok → Önjellemzés → Bizalom a találkozásban → Dátum, elköszönés",
+        "Mindig az adott pozícióra szabva, lényegre törően"
+      ]
+    }
   ]
 };
 </script>
@@ -392,7 +411,7 @@ const cheatSheetData = {
 <template>
   <div class="space-y-6">
     <div>
-      <h2 class="text-3xl font-bold text-amber-500 mb-3">Gyorsútmutató (Cheat Sheet)</h2>
+      <h2 class="text-3xl font-bold text-amber-500 mb-3">Összefoglaló</h2>
       <p class="text-gray-300 text-lg">
         A legfontosabb képletek, fogalmak és szabályok röviden, kategóriák szerint rendezve.
       </p>

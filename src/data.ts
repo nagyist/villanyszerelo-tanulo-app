@@ -53,6 +53,12 @@ export const CATEGORIES: Category[] = [
     title: "Műszaki rajz és dokumentáció",
     description: "Villamos rajzok, kapcsolási rajzok, műszaki dokumentáció olvasása és készítése",
     icon: "📐"
+  },
+  {
+    id: "employment",
+    title: "Munkaerő-piaci ismeretek",
+    description: "Munkavállalás pénzügyi vonatkozásai és álláskeresés",
+    icon: "💼"
   }
 ];
 
@@ -258,6 +264,13 @@ export const TOPICS: Topic[] = [
     summary: "Tömbvázlat, kapcsolási rajz, elvi rajz, huzalozási rajz, NYÁK rajz és egyéb villamos dokumentáció típusok.",
     contentPath: "/src/content/topics/electrical-system-drawings.md",
     category: "technical-drawing"
+  },
+  {
+    id: "employment-basics",
+    title: "Munkaerő-piaci ismeretek",
+    summary: "Bruttó és nettó bér, munkavállalói adó és járulékok, motivációs levél készítése.",
+    contentPath: "/src/content/topics/employment-basics.md",
+    category: "employment"
   }
 ];
 

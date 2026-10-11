@@ -11,7 +11,7 @@ const tabs = [
   { id: "practice", label: "Gyakorlás", icon: "✏️", path: "/villany-app/practice" },
   { id: "circuits", label: "Rajzos feladatok", icon: "🔌", path: "/villany-app/circuits" },
   { id: "quiz", label: "Teszt", icon: "📝", path: "/villany-app/quiz" },
-  { id: "cheat-sheet", label: "Gyorsútmutató", icon: "📋", path: "/villany-app/cheat-sheet" },
+  { id: "cheat-sheet", label: "Összefoglaló", icon: "📋", path: "/villany-app/cheat-sheet" },
 ];
 
 const activeTab = computed(() => {
@@ -51,7 +51,7 @@ const subtitle = computed(() => {
     case "quiz":
       return "Teszt · Kvíz";
     case "cheat-sheet":
-      return "Gyorsútmutató · Képletek és összefoglalók";
+      return "Összefoglaló · Képletek és összefoglalók";
     default:
       return "Villamos alapismeretek · Elektrotechnika";
   }
